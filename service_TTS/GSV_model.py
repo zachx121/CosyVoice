@@ -26,7 +26,7 @@ import logging
 logger = logging.getLogger(__file__)
 logger.setLevel(logging.INFO)
 
-
+# pip install hyperpyyaml WeTextProcessing ttsfrd
 class GSVModel:
     sid_info = {
         "fuhang_zs": {"audio_fp": "/root/autodl-fs/audio_samples/fuhang/sentence1.wav",
